@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlickrApiApp</string>
+    <string name="no_result">No result</string>
+    <string name="search">Search for images</string>
+    <string name="error">Something went wrong</string>
+    <string name="try_later">Please check your connection again or try later</string>
+</resources>

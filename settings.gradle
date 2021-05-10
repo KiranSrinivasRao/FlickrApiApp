@@ -1,0 +1,2 @@
+rootProject.name='FlickrApiApp'
+include ':app'
