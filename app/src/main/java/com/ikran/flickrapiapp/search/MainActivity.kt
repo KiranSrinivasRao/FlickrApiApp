@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
         searchVM = injectViewModel(viewModelFactory)
 
         val config = resources.configuration
-        rvPhotos.layoutManager = GridLayoutManager(this, 5, getOrientation(config), false)
+        rvPhotos.layoutManager = GridLayoutManager(this, 4, getOrientation(config), false)
 
         val divider = R.dimen.default_4dp
         rvPhotos.addItemDecoration(ItemDivider(Color.TRANSPARENT,divider,divider))
